@@ -1,0 +1,23 @@
+name: cop_gpt
+channels:
+  - defaults
+  - conda-forge
+  - fastai
+dependencies:
+  - python=3.10
+  - pip  
+  - pip:
+    - ipykernel
+    - pandas
+    - numpy
+    - seaborn
+    - matplotlib
+    - bokeh
+    - torch
+    - torchtext
+    - torchmetrics
+    - nbdev
+
+
+    
+
