@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "cop_gpt"
+version = "0.1.0"
+description = "GPT analysis in cop"
+authors = ["Jean Kunz <jkunz@pictet.com>"]
+readme = "README.md"
+packages = []
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyarrow = "^12"
+pandas = "^2"
+matplotlib = "^3"
+seaborn = "^0"
+bokeh = "^3"
+torch = "^2"
+torchtext = "^0"
+torchmetrics = "^1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = ">=6.22.0"
+nbdev = "^2"
+flake8 = ">=6"
+black = ">=23"
+pytest = "^7.3"
+ipytest = "^0.13"
+ipympl = "^0.9.3"
+pre-commit = "^3.3.3"
+jupyter = "^1.0.0"
+tensorboard = "^2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
