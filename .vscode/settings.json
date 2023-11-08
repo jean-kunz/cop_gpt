@@ -30,4 +30,5 @@
     ],
     "python.analysis.refactoring.allowMovingSymbols": true,
     "taipyStudio.config.mainPythonFile": "setup.py",
+    "taipyStudio.gUI.elementsFilePaths": [],
 }
