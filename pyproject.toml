@@ -17,6 +17,7 @@ bokeh = "^3"
 torch = "^2"
 torchtext = "^0"
 torchmetrics = "^1"
+transformers = "^4.35.2"
 
 
 [tool.poetry.group.dev.dependencies]
