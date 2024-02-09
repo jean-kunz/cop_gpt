@@ -19,6 +19,7 @@ torchtext = "^0"
 torchmetrics = "^1"
 transformers = "^4.35.2"
 rich = "^13.7.0"
+icecream = "^2.1.3"
 
 
 [tool.poetry.group.dev.dependencies]
