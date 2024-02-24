@@ -33,6 +33,7 @@ ipympl = "^0.9.3"
 pre-commit = "^3.3.3"
 jupyter = "^1.0.0"
 tensorboard = "^2"
+jupytext = "^1.16.1"
 
 [build-system]
 requires = ["poetry-core"]
