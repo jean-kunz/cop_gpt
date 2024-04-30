@@ -20,6 +20,7 @@ torchmetrics = "^1"
 transformers = "^4.35.2"
 rich = "^13.7.0"
 icecream = "^2.1.3"
+regex = "^2024.4.28"
 
 
 [tool.poetry.group.dev.dependencies]
