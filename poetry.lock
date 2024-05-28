@@ -12,6 +12,51 @@ files = [
 ]
 
 [[package]]
+name = "ai-edge-model-explorer"
+version = "0.1.0"
+description = "A modern model graph visualizer and debugger"
+optional = false
+python-versions = ">=3.9"
+files = [
+    {file = "ai_edge_model_explorer-0.1.0-1-py3-none-any.whl", hash = "sha256:9563d63e3195807c028b3d48d7242fe87e43091f29ce4e244d1cf67d652c1e0e"},
+    {file = "ai_edge_model_explorer-0.1.0-py3-none-any.whl", hash = "sha256:91425bf239817461ff6d573ea380531e4aa954203864f4f5da090baad857610d"},
+    {file = "ai_edge_model_explorer-0.1.0.tar.gz", hash = "sha256:e2d74cf136ba78737c743953e72064cd508490f19be4116c0843d6d2d7ffbe58"},
+]
+
+[package.dependencies]
+ai-edge-model-explorer-adapter = "0.1.1"
+flask = "*"
+ipython = "*"
+numpy = "*"
+packaging = "*"
+portpicker = "*"
+requests = "*"
+termcolor = "*"
+torch = "*"
+typing-extensions = "*"
+
+[[package]]
+name = "ai-edge-model-explorer-adapter"
+version = "0.1.1"
+description = "Model Explorer offers an intuitive and hierarchical visualization of model graphs."
+optional = false
+python-versions = "*"
+files = [
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp310-cp310-macosx_10_15_x86_64.whl", hash = "sha256:3610af24f2fa6de0777e5c6871cf25aaee204eda017d50cf30d25d65b8d961c1"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp310-cp310-macosx_12_0_arm64.whl", hash = "sha256:950f90d1041d0330b8e5a66804f5eb57c5888020abb6f35d375fa687a65d2721"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp310-cp310-manylinux_2_17_x86_64.whl", hash = "sha256:eb02b7b6180a09da4e1a56eeb51bd6102f3c14b016c3a89539daf832bf7de854"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp311-cp311-macosx_10_15_x86_64.whl", hash = "sha256:8d4f268c68cf9d0113d350e25ef3d126644ead2d1e9325bc4b5b54dd56e65bae"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp311-cp311-macosx_12_0_arm64.whl", hash = "sha256:d733c4e87b299c0977b3ffc66e72d4761665759e9a8d957075f92b8af6b554cf"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp311-cp311-manylinux_2_17_x86_64.whl", hash = "sha256:2cfe04591aff93956ff2d4032d21fb6a8a0f6325bc7bb04ba226ef9e378ff360"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp312-cp312-macosx_10_15_x86_64.whl", hash = "sha256:2b0612dd5d87562b6aebef7eaa8d3a0c75014597edb0c94d2f7cf933c523ab6d"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp312-cp312-macosx_12_0_arm64.whl", hash = "sha256:5d6ece9283acfedf5525903b9ed6089587186e51118de027b3d520df3b2562cb"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp312-cp312-manylinux_2_17_x86_64.whl", hash = "sha256:28cab66d81b2fd05bd40ac9735123ebcd18e812cf543f266752fc626ae1554ae"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp39-cp39-macosx_10_15_x86_64.whl", hash = "sha256:f7ec40c6f4b7c1a43b4034bb11734a2c055f6d6368d35ba8f5bcf73dcc88d5fb"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp39-cp39-macosx_12_0_arm64.whl", hash = "sha256:8a132f2eeca8f1483ef14cfea8d1c22ef2eb50e54c8cedbe7de6089022d19d94"},
+    {file = "ai_edge_model_explorer_adapter-0.1.1-cp39-cp39-manylinux_2_17_x86_64.whl", hash = "sha256:88e8d0499109eeedacbd772c29ebdf9ff52a54ae3a40c115b0b6da83ee2a1e5d"},
+]
+
+[[package]]
 name = "anyio"
 version = "4.3.0"
 description = "High level compatibility layer for multiple asynchronous event loop implementations"
@@ -277,6 +322,17 @@ webencodings = "*"
 
 [package.extras]
 css = ["tinycss2 (>=1.1.0,<1.3)"]
+
+[[package]]
+name = "blinker"
+version = "1.8.2"
+description = "Fast, simple object-to-object and broadcast signaling"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "blinker-1.8.2-py3-none-any.whl", hash = "sha256:1779309f71bf239144b9399d06ae925637cf6634cf6bd131104184531bf67c01"},
+    {file = "blinker-1.8.2.tar.gz", hash = "sha256:8f77b09d3bf7c795e969e9486f39c2c5e9c39d4ee07424be2bc594ece9642d83"},
+]
 
 [[package]]
 name = "bokeh"
@@ -764,6 +820,28 @@ files = [
 mccabe = ">=0.7.0,<0.8.0"
 pycodestyle = ">=2.11.0,<2.12.0"
 pyflakes = ">=3.2.0,<3.3.0"
+
+[[package]]
+name = "flask"
+version = "3.0.3"
+description = "A simple framework for building complex web applications."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "flask-3.0.3-py3-none-any.whl", hash = "sha256:34e815dfaa43340d1d15a5c3a02b8476004037eb4840b34910c6e21679d288f3"},
+    {file = "flask-3.0.3.tar.gz", hash = "sha256:ceb27b0af3823ea2737928a4d99d125a06175b8512c445cbd9a9ce200ef76842"},
+]
+
+[package.dependencies]
+blinker = ">=1.6.2"
+click = ">=8.1.3"
+itsdangerous = ">=2.1.2"
+Jinja2 = ">=3.1.2"
+Werkzeug = ">=3.0.0"
+
+[package.extras]
+async = ["asgiref (>=3.2)"]
+dotenv = ["python-dotenv"]
 
 [[package]]
 name = "fonttools"
@@ -1255,6 +1333,17 @@ files = [
 
 [package.dependencies]
 arrow = ">=0.15.0"
+
+[[package]]
+name = "itsdangerous"
+version = "2.2.0"
+description = "Safely pass data to untrusted environments and back."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "itsdangerous-2.2.0-py3-none-any.whl", hash = "sha256:c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef"},
+    {file = "itsdangerous-2.2.0.tar.gz", hash = "sha256:e0050c0b7da1eea53ffaf149c0cfbb5c6e2e2b69c4bef22c81fa6eb73e5f6173"},
+]
 
 [[package]]
 name = "jedi"
@@ -2675,6 +2764,20 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "portpicker"
+version = "1.6.0"
+description = "A library to choose unique available network ports."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "portpicker-1.6.0-py3-none-any.whl", hash = "sha256:b2787a41404cf7edbe29b07b9e0ed863b09f2665dcc01c1eb0c2261c1e7d0755"},
+    {file = "portpicker-1.6.0.tar.gz", hash = "sha256:bd507fd6f96f65ee02781f2e674e9dc6c99bbfa6e3c39992e3916204c9d431fa"},
+]
+
+[package.dependencies]
+psutil = "*"
+
+[[package]]
 name = "pre-commit"
 version = "3.6.2"
 description = "A framework for managing and maintaining multi-language pre-commit hooks."
@@ -3752,6 +3855,20 @@ files = [
 ]
 
 [[package]]
+name = "termcolor"
+version = "2.4.0"
+description = "ANSI color formatting for output in terminal"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "termcolor-2.4.0-py3-none-any.whl", hash = "sha256:9297c0df9c99445c2412e832e882a7884038a25617c60cea2ad69488d4040d63"},
+    {file = "termcolor-2.4.0.tar.gz", hash = "sha256:aab9e56047c8ac41ed798fa36d892a37aca6b3e9159f3e0c24bc64a9b3ac7b7a"},
+]
+
+[package.extras]
+tests = ["pytest", "pytest-cov"]
+
+[[package]]
 name = "terminado"
 version = "0.18.0"
 description = "Tornado websocket backend for the Xterm.js Javascript terminal emulator library."
@@ -4457,4 +4574,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c7bcc8e041c5161a801663b515ad93c81c315ee8aa4cead8aa9ecb1df19e273c"
+content-hash = "dcb9055fac017e341e39337f083ee16d68150652d945de74dda0256751c4a844"
