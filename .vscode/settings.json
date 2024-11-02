@@ -1,6 +1,6 @@
 {
     "python.envFile": "${workspaceFolder}/.env",
-    "python.defaultInterpreterPath": "${env:HOME}/Library/Caches/pypoetry/virtualenvs/cop-gpt-XeiTM7fR-py3.11",
+    //"python.defaultInterpreterPath": "${env:HOME}/Library/Caches/pypoetry/virtualenvs/cop-gpt-XeiTM7fR-py3.11",
     "notebook.formatOnSave.enabled": true,
     "editor.formatOnSave": true,
     "notebook.cellToolbarVisibility": "hover",
