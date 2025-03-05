@@ -27,6 +27,8 @@ datasets = "^2"
 evaluate = "^0"
 trl = "^0.14.0"
 peft = "^0.14.0"
+latex2sympy2-extended = "^1.10.1"
+math-verify = "^0.7.0"
 
 
 [tool.poetry.group.dev.dependencies]
