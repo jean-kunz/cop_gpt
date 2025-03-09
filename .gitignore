@@ -4,3 +4,4 @@ dist/*
 **/.ipynb_checkpoints/**
 runs/**
 nbs/runs/**
+nbs/Qwen2-0.5B-GRPO-test/**
